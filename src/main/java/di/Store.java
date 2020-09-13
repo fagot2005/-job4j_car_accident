@@ -18,4 +18,6 @@ public class Store {
     public List<String> getAll() {
         return data;
     }
+
+
 }
