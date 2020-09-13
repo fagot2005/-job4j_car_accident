@@ -15,7 +15,7 @@
 <html>
 <head>
 
-    <title>Hello, world!</title>
+    <title>Accidents !</title>
 </head>
 <body>
 <br>
@@ -27,14 +27,13 @@
         </tr>
         </thead>
         <tbody>
-        <c:forEach var="name" items="${users}">
+        <c:forEach var="name" items="${names}">
             <tr>
-                <td><c:out value="${user}"/></td>
+                <td><c:out value="${name}"/></td>
             </tr>
         </c:forEach>
         </tbody>
     </table>
 </div>
-
 </body>
 </html>

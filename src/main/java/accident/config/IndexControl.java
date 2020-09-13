@@ -11,7 +11,7 @@ public class IndexControl {
 
     @GetMapping("/")
     public String index(Model model) {
-        model.addAttribute("users", List.of(
+        model.addAttribute("names", List.of(
                 "Ivanov",
                 "Petrov",
                 "Sidorov"
